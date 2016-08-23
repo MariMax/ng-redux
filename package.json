@@ -2,7 +2,7 @@
   "name": "ng-redux",
   "version": "3.4.0-beta.1",
   "description": "Redux bindings for Angular.js",
-  "main": "./dist/ng-redux.js",
+  "main": "./lib/index.js",
   "scripts": {
     "build": "npm run build:lib && npm run build:min && npm run build:max",
     "build:lib": "rm -rf lib && `npm bin`/babel src --out-dir lib",
